@@ -164,5 +164,8 @@ cython_debug/
 # macos specific
 .DS_Store
 
-# sagemath 
+# sagemath
 .singularhistory
+
+.vscode
+tmp/
