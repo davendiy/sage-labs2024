@@ -3,6 +3,9 @@
 #include <iostream>
 
 
+// пайтон вміє працювати тільки з С, тому треба зробити обгортку без std бібліотеки
+// тобто всякі вектори і мапи можна використовувати всередині функції, але її
+// сигнатура повинна бути суто сішною (зокрема, ніяких посилань через &)
 extern "C"{
     int* symmetric_factors(int *partition, int size, int n){
         int* res_factors = new int[n+1];
@@ -34,14 +37,18 @@ extern "C"{
 
 int main(int argc, char *argv[]){
 
+    // поки можем -- намагаємось зчитати на вхід розбиття числа через пробіл
     while (1){
         int* partition = new int[101];
         int all = 0;
         int size = 0;
+
         while (all < 100) {
             int tmp;
             size++;
             std::cin >> tmp;
+
+            // якщо відʼємне число -- закінчуємо роботу
             if (tmp < 0) {
                 std::cout << -1 << std::endl;
                 exit(0);
@@ -52,7 +59,7 @@ int main(int argc, char *argv[]){
         // std::cout << "starting calc for partition of size " << partition.size() << std::endl;
         auto res = symmetric_factors(partition, size, 100);
 
-        // std::cout << res << std::endl;
+        // виводимо результуючі дільники, щоб потім їх перемножити в пайтоні
         for (int i = 0; i < 101; i++) std::cout << res[i] << ' ';
         std::cout << std::endl;
     }

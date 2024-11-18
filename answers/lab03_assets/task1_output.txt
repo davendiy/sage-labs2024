@@ -1,0 +1,164 @@
+
+
+==================================
+Group Dihedral group of order 20 as a permutation group which is isomorphic to  D10
+*  a b c d e f g h i j k l m n o p q r s t
+ +----------------------------------------
+a| a b c d e f g h i j k l m n o p q r s t
+b| b a d c f e h g j i l k n m p o r q t s
+c| c s a e d g f i h k j m l o n q p t b r
+d| d t b f c h e j g l i n k p m r o s a q
+e| e r s g a i d k f m h o j q l t n b c p
+f| f q t h b j c l e n g p i r k s m a d o
+g| g p r i s k a m d o f q h t j b l c e n
+h| h o q j t l b n c p e r g s i a k d f m
+i| i n p k r m s o a q d t f b h c j e g l
+j| j m o l q n t p b r c s e a g d i f h k
+k| k l n m p o r q s t a b d c f e h g i j
+l| l k m n o p q r t s b a c d e f g h j i
+m| m j l o n q p t r b s c a e d g f i k h
+n| n i k p m r o s q a t d b f c h e j l g
+o| o h j q l t n b p c r e s g a i d k m f
+p| p g i r k s m a o d q f t h b j c l n e
+q| q f h t j b l c n e p g r i s k a m o d
+r| r e g s i a k d m f o h q j t l b n p c
+s| s c e a g d i f k h m j o l q n t p r b
+t| t d f b h c j e l g n i p k r m s o q a
+group is abelian: False
+order of group: 20
+==================================
+
+
+
+
+==================================
+Group Cyclic group of order 16 as a permutation group which is isomorphic to  C16
+*  a b c d e f g h i j k l m n o p
+ +--------------------------------
+a| a b c d e f g h i j k l m n o p
+b| b c d e f g h i j k l m n o p a
+c| c d e f g h i j k l m n o p a b
+d| d e f g h i j k l m n o p a b c
+e| e f g h i j k l m n o p a b c d
+f| f g h i j k l m n o p a b c d e
+g| g h i j k l m n o p a b c d e f
+h| h i j k l m n o p a b c d e f g
+i| i j k l m n o p a b c d e f g h
+j| j k l m n o p a b c d e f g h i
+k| k l m n o p a b c d e f g h i j
+l| l m n o p a b c d e f g h i j k
+m| m n o p a b c d e f g h i j k l
+n| n o p a b c d e f g h i j k l m
+o| o p a b c d e f g h i j k l m n
+p| p a b c d e f g h i j k l m n o
+group is abelian: True
+order of group: 16
+==================================
+
+
+
+
+==================================
+Group Alternating group of order 5!/2 as a permutation group which is isomorphic to  A5
+ *  aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch
+  +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+aa| aa ab ac ad ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az ba bb bc bd be bf bg bh bi bj bk bl bm bn bo bp bq br bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch
+ab| ab ac aa af ad ae ah ai ag al aj ak ao am an aq ar ap au as at aw ax av az ba ay bd bb bc bf bg be bj bh bi bm bk bl bo bp bn bs bq br bu bv bt bx by bw cb bz ca cd ce cc ch cf cg
+ac| ac aa ab ae af ad ai ag ah ak al aj an ao am ar ap aq at au as ax av aw ba ay az bc bd bb bg be bf bi bj bh bl bm bk bp bn bo br bs bq bv bt bu by bw bx ca cb bz ce cc cd cg ch cf
+ad| ad ag aj aa ah ak ab ae al ac af ai ap as av am at aw an aq ax ao ar au bb be bh ay bf bi az bc bj ba bd bg bn bq bt bk br bu bl bo bv bm bp bs bz cc cf bw cd cg bx ca ch by cb ce
+ae| ae ai ak ac ag al aa af aj ab ad ah ar at ax an au av ao ap aw am aq as bc bg bi ba be bj ay bd bh az bb bf bp br bv bl bs bt bm bn bu bk bo bq ca ce cg by cc ch bw cb cf bx bz cd
+af| af ah al ab ai aj ac ad ak aa ae ag aq au aw ao as ax am ar av an ap at bd bf bj az bg bh ba bb bi ay bc be bo bs bu bm bq bv bk bp bt bl bn br cb cd ch bx ce cf by bz cg bw ca cc
+ag| ag aj ad ak aa ah ae al ab ai ac af av ap as at aw am ax an aq ar au ao be bh bb bi ay bf bc bj az bg ba bd bt bn bq br bu bk bv bl bo bp bs bm cc cf bz cg bw cd ca ch bx ce by cb
+ah| ah al af aj ab ai ad ak ac ag aa ae aw aq au as ax ao av am ar ap at an bf bj bd bh az bg bb bi ba be ay bc bu bo bs bq bv bm bt bk bp bn br bl cd ch cb cf bx ce bz cg by cc bw ca
+ai| ai ak ae al ac ag af aj aa ah ab ad ax ar at au av an aw ao ap aq as am bg bi bc bj ba be bd bh ay bf az bb bv bp br bs bt bl bu bm bn bo bq bk ce cg ca ch by cc cb cf bw cd bx bz
+aj| aj ad ag ah ak aa al ab ae af ai ac as av ap aw am at aq ax an au ao ar bh bb be bf bi ay bj az bc bd bg ba bq bt bn bu bk br bo bv bl bs bm bp cf bz cc cd cg bw ch bx ca cb ce by
+ak| ak ae ai ag al ac aj aa af ad ah ab at ax ar av an au ap aw ao as am aq bi bc bg be bj ba bh ay bd bb bf az br bv bp bt bl bs bn bu bm bq bk bo cg ca ce cc ch by cf bw cb bz cd bx
+al| al af ah ai aj ab ak ac ad ae ag aa au aw aq ax ao as ar av am at an ap bj bd bf bg bh az bi ba bb bc be ay bs bu bo bv bm bq bp bt bk br bl bn ch cb cd ce cf bx cg by bz ca cc bw
+am| am an ao ay az ba bk bl bm bw bx by aa ab ac bb bc bd bn bo bp bz ca cb ad ae af ap aq ar bq br bs cc cd ce ag ah ai as at au be bf bg cf cg ch aj ak al av aw ax bh bi bj bt bu bv
+an| an ao am ba ay az bl bm bk by bw bx ac aa ab bc bd bb bp bn bo ca cb bz ae af ad ar ap aq br bs bq ce cc cd ai ag ah at au as bg be bf cg ch cf ak al aj ax av aw bi bj bh bv bt bu
+ao| ao am an az ba ay bm bk bl bx by bw ab ac aa bd bb bc bo bp bn cb bz ca af ad ae aq ar ap bs bq br cd ce cc ah ai ag au as at bf bg be ch cf cg al aj ak aw ax av bj bh bi bu bv bt
+ap| ap as av bb be bh bn bq bt bz cc cf ad ag aj ay bf bi bk br bu bw cd cg aa ah ak am at aw bl bo bv bx ca ch ab ae al an aq ax az bc bj by cb ce ac af ai ao ar au ba bd bg bm bp bs
+aq| aq au aw bd bf bj bo bs bu cb cd ch af ah al az bg bh bm bq bv bx ce cf ab ai aj ao as ax bk bp bt by bz cg ac ad ak am ar av ba bb bi bw ca cc aa ae ag an ap at ay bc be bl bn br
+ar| ar at ax bc bg bi bp br bv ca ce cg ae ai ak ba be bj bl bs bt by cc ch ac ag al an au av bm bn bu bw cb cf aa af aj ao ap aw ay bd bh bx bz cd ab ad ah am aq as az bb bf bk bo bq
+as| as av ap bh bb be bq bt bn cf bz cc aj ad ag bf bi ay bu bk br cd cg bw ah ak aa aw am at bo bv bl ch bx ca al ab ae aq ax an bj az bc cb ce by af ai ac au ao ar bd bg ba bs bm bp
+at| at ax ar bi bc bg br bv bp cg ca ce ak ae ai be bj ba bt bl bs cc ch by ag al ac av an au bn bu bm cf bw cb aj aa af ap aw ao bh ay bd bz cd bx ad ah ab as am aq bb bf az bq bk bo
+au| au aw aq bj bd bf bs bu bo ch cb cd al af ah bg bh az bv bm bq ce cf bx ai aj ab ax ao as bp bt bk cg by bz ak ac ad ar av am bi ba bb ca cc bw ae ag aa at an ap bc be ay br bl bn
+av| av ap as be bh bb bt bn bq cc cf bz ag aj ad bi ay bf br bu bk cg bw cd ak aa ah at aw am bv bl bo ca ch bx ae al ab ax an aq bc bj az ce by cb ai ac af ar au ao bg ba bd bp bs bm
+aw| aw aq au bf bj bd bu bo bs cd ch cb ah al af bh az bg bq bv bm cf bx ce aj ab ai as ax ao bt bk bp bz cg by ad ak ac av am ar bb bi ba cc bw ca ag aa ae ap at an be ay bc bn br bl
+ax| ax ar at bg bi bc bv bp br ce cg ca ai ak ae bj ba be bs bt bl ch by cc al ac ag au av an bu bm bn cb cf bw af aj aa aw ao ap bd bh ay cd bx bz ah ab ad aq as am bf az bb bo bq bk
+ay| ay bk bw am bl bx an az by ao ba bm bb bn bz aa bo ca ab bc cb ac bd bp ap bq cc ad br cd ae aq ce af ar bs as be cf ag bf cg ah at ch ai au bg av bh bt aj bi bu ak aw bv al ax bj
+az| az bm bx ao bk by am ba bw an ay bl bd bo cb ab bp bz ac bb ca aa bc bn aq bs cd af bq ce ad ar cc ae ap br au bf ch ah bg cf ai as cg ag at be aw bj bu al bh bv aj ax bt ak av bi
+ba| ba bl by an bm bw ao ay bx am az bk bc bp ca ac bn cb aa bd bz ab bb bo ar br ce ae bs cc af ap cd ad aq bq at bg cg ai be ch ag au cf ah as bf ax bi bv ak bj bt al av bu aj aw bh
+bb| bb bn bz ap bq cc as be cf av bh bt ay bk bw ad br cd ag bf cg aj bi bu am bl bx aa bo ca ah at ch ak aw bv an az by ab bc cb ae aq ce al ax bj ao ba bm ac bd bp af ar bs ai au bg
+bc| bc bp ca ar br ce at bg cg ax bi bv ba bl by ae bs cc ai be ch ak bj bt an bm bw ac bn cb ag au cf al av bu ao ay bx aa bd bz af ap cd aj aw bh am az bk ab bb bo ad aq bq ah as bf
+bd| bd bo cb aq bs cd au bf ch aw bj bu az bm bx af bq ce ah bg cf al bh bv ao bk by ab bp bz ai as cg aj ax bt am ba bw ac bb ca ad ar cc ak av bi an ay bl aa bc bn ae ap br ag at be
+be| be bt cc av bn cf ap bh bz as bb bq bi br cg ag bu bw aj ay cd ad bf bk at bv ca ak bl ch aa aw bx ah am bo ax bc ce ae bj by al an cb ab aq az ar bg bp ai ba bs ac au bm af ao bd
+bf| bf bu cd aw bo ch aq bj cb au bd bs bh bq cf ah bv bx al az ce af bg bm as bt bz aj bk cg ab ax by ai ao bp av bb cc ad bi bw ak am ca ac ar ba ap be bn ag ay br aa at bl ae an bc
+bg| bg bv ce ax bp cg ar bi ca at bc br bj bs ch ai bt by ak ba cc ae be bl au bu cb al bm cf ac av bw ag an bn aw bd cd af bh bx aj ao bz aa ap ay aq bf bo ah az bq ab as bk ad am bb
+bh| bh bq cf as bt bz av bb cc ap be bn bf bu cd aj bk cg ad bi bw ag ay br aw bo ch ah bv bx ak am ca aa at bl aq bj cb al az ce ab ax by ae an bc au bd bs af bg bm ai ao bp ac ar ba
+bi| bi br cg at bv ca ax bc ce ar bg bp be bt cc ak bl ch ae bj by ai ba bs av bn cf ag bu bw al an cb ac au bm ap bh bz aj ay cd aa aw bx af ao bd as bb bq ad bf bk ah am bo ab aq az
+bj| bj bs ch au bu cb aw bd cd aq bf bo bg bv ce al bm cf af bh bx ah az bq ax bp cg ai bt by aj ao bz ab as bk ar bi ca ak ba cc ac av bw ad am bb at bc br ae be bl ag an bn aa ap ay
+bk| bk bw ay bx am bl az by an bm ao ba bz bb bn bo ca aa cb ab bc bd bp ac bq cc ap cd ad br aq ce ae bs af ar cf as be bf cg ag ch ah at au bg ai bh bt av bu aj bi aw bv ak bj al ax
+bl| bl by ba bw an bm ay bx ao bk am az ca bc bp bn cb ac bz aa bd bb bo ab br ce ar cc ae bs ap cd af bq ad aq cg at bg be ch ai cf ag au as bf ah bi bv ax bt ak bj av bu al bh aj aw
+bm| bm bx az by ao bk ba bw am bl an ay cb bd bo bp bz ab ca ac bb bc bn aa bs cd aq ce af bq ar cc ad br ae ap ch au bf bg cf ah cg ai as at be ag bj bu aw bv al bh ax bt aj bi ak av
+bn| bn bz bb cc ap bq be cf as bt av bh bw ay bk br cd ad cg ag bf bi bu aj bl bx am ca aa bo at ch ah bv ak aw by an az bc cb ab ce ae aq ax bj al ba bm ao bp ac bd ar bs af bg ai au
+bo| bo cb bd cd aq bs bf ch au bu aw bj bx az bm bq ce af cf ah bg bh bv al bk by ao bz ab bp as cg ai bt aj ax bw am ba bb ca ac cc ad ar av bi ak ay bl an bn aa bc ap br ae be ag at
+bp| bp ca bc ce ar br bg cg at bv ax bi by ba bl bs cc ae ch ai be bj bt ak bm bw an cb ac bn au cf ag bu al av bx ao ay bd bz aa cd af ap aw bh aj az bk am bo ab bb aq bq ad bf ah as
+bq| bq cf bh bz as bt bb cc av bn ap be cd bf bu bk cg aj bw ad bi ay br ag bo ch aw bx ah bv am ca ak bl aa at cb aq bj az ce al by ab ax an bc ae bd bs au bm af bg ao bp ai ba ac ar
+br| br cg bi ca at bv bc ce ax bp ar bg cc be bt bl ch ak by ae bj ba bs ai bn cf av bw ag bu an cb al bm ac au bz ap bh ay cd aj bx aa aw ao bd af bb bq as bk ad bf am bo ah az ab aq
+bs| bs ch bj cb au bu bd cd aw bo aq bf ce bg bv bm cf al bx af bh az bq ah bp cg ax by ai bt ao bz aj bk ab as ca ar bi ba cc ak bw ac av am bb ad bc br at bl ae be an bn ag ay aa ap
+bt| bt cc be cf av bn bh bz ap bq as bb cg bi br bu bw ag cd aj ay bf bk ad bv ca at ch ak bl aw bx aa bo ah am ce ax bc bj by ae cb al an aq az ab bg bp ar bs ai ba au bm ac bd af ao
+bu| bu cd bf ch aw bo bj cb aq bs au bd cf bh bq bv bx ah ce al az bg bm af bt bz as cg aj bk ax by ab bp ai ao cc av bb bi bw ad ca ak am ar ba ac be bn ap br ag ay at bl aa bc ae an
+bv| bv ce bg cg ax bp bi ca ar br at bc ch bj bs bt by ai cc ak ba be bl ae bu cb au cf al bm av bw ac bn ag an cd aw bd bh bx af bz aj ao ap ay aa bf bo aq bq ah az as bk ab bb ad am
+bw| bw ay bk bl bx am by an az ba bm ao bn bz bb ca aa bo bc cb ab bp ac bd cc ap bq br cd ad ce ae aq ar bs af be cf as cg ag bf at ch ah bg ai au bt av bh bi bu aj bv ak aw ax bj al
+bx| bx az bm bk by ao bw am ba ay bl an bo cb bd bz ab bp bb ca ac bn aa bc cd aq bs bq ce af cc ad ar ap br ae bf ch au cf ah bg as cg ai be ag at bu aw bj bh bv al bt aj ax av bi ak
+by| by ba bl bm bw an bx ao ay az bk am bp ca bc cb ac bn bd bz aa bo ab bb ce ar br bs cc ae cd af ap aq bq ad bg cg at ch ai be au cf ag bf ah as bv ax bi bj bt ak bu al av aw bh aj
+bz| bz bb bn bq cc ap cf as be bh bt av bk bw ay cd ad br bf cg ag bu aj bi bx am bl bo ca aa ch ah at aw bv ak az by an cb ab bc aq ce ae bj al ax bm ao ba bd bp ac bs af ar au bg ai
+ca| ca bc bp br ce ar cg at bg bi bv ax bl by ba cc ae bs be ch ai bt ak bj bw an bm bn cb ac cf ag au av bu al ay bx ao bz aa bd ap cd af bh aj aw bk am az bb bo ab bq ad aq as bf ah
+cb| cb bd bo bs cd aq ch au bf bj bu aw bm bx az ce af bq bg cf ah bv al bh by ao bk bp bz ab cg ai as ax bt aj ba bw am ca ac bb ar cc ad bi ak av bl an ay bc bn aa br ae ap at be ag
+cc| cc be bt bn cf av bz ap bh bb bq as br cg bi bw ag bu ay cd aj bk ad bf ca at bv bl ch ak bx aa aw am bo ah bc ce ax by ae bj an cb al az ab aq bp ar bg ba bs ai bm ac au ao bd af
+cd| cd bf bu bo ch aw cb aq bj bd bs au bq cf bh bx ah bv az ce al bm af bg bz as bt bk cg aj by ab ax ao bp ai bb cc av bw ad bi am ca ak ba ac ar bn ap be ay br ag bl aa at an bc ae
+ce| ce bg bv bp cg ax ca ar bi bc br at bs ch bj by ai bt ba cc ak bl ae be cb au bu bm cf al bw ac av an bn ag bd cd aw bx af bh ao bz aj ay aa ap bo aq bf az bq ah bk ab as am bb ad
+cf| cf bh bq bt bz as cc av bb be bn ap bu cd bf cg aj bk bi bw ad br ag ay ch aw bo bv bx ah ca ak am at bl aa bj cb aq ce al az ax by ab bc ae an bs au bd bg bm af bp ai ao ar ba ac
+cg| cg bi br bv ca at ce ax bc bg bp ar bt cc be ch ak bl bj by ae bs ai ba cf av bn bu bw ag cb al an au bm ac bh bz ap cd aj ay aw bx aa bd af ao bq as bb bf bk ad bo ah am aq az ab
+ch| ch bj bs bu cb au cd aw bd bf bo aq bv ce bg cf al bm bh bx af bq ah az cg ax bp bt by ai bz aj ao as bk ab bi ca ar cc ak ba av bw ac bb ad am br at bc be bl ae bn ag an ap ay aa
+group is abelian: False
+order of group: 60
+==================================
+
+
+
+
+==================================
+Group Special Linear Group of degree 2 over Ring of integers modulo 3 which is isomorphic to  SL(2,3)
+*  a b c d e f g h i j k l m n o p q r s t u v w x
+ +------------------------------------------------
+a| p s v g j m a l u c o r b i x d n w f k q e h t
+b| r u x h k n b j t a m q c g w f o v e l p d i s
+c| q t w i l o c k s b n p a h v e m x d j r f g u
+d| g m j p v s d w n e t h f q k a u l b x i c r o
+e| i o l q w t e x m f u g d r j c s k a v h b p n
+f| h n k r x u f v o d s i e p l b t j c w g a q m
+g| a b c d e f g h i j k l m n o p q r s t u v w x
+h| b c a f d e h i g k l j n o m r p q u s t x v w
+i| c a b e f d i g h l j k o m n q r p t u s w x v
+j| u x r n h k j t b m q a g w c v f o p e l s d i
+k| t w q o i l k s c n p b h v a x e m r d j u f g
+l| s v p m g j l u a o r c i x b w d n q f k t e h
+m| l i o w t q m e x g f u j d r s k c v h a p n b
+n| j g m v s p n d w h e t k f q u l a x i b r o c
+o| k h n x u r o f v i d s l e p t j b w g c q m a
+p| d f e a c b p r q v x w s u t g i h m o n j l k
+q| e d f c b a q p r w v x t s u i h g o n m l k j
+r| f e d b a c r q p x w v u t s h g i n m o k j l
+s| w q t l o i s c k p b n v a h m x e j r d g u f
+t| x r u k n h t b j q a m w c g o v f l p e i s d
+u| v p s j m g u a l r c o x b i n w d k q f h t e
+v| n k h u r x v o f s i d p l e j b t g c w m a q
+w| m j g s p v w n d t h e q k f l a u i b x o c r
+x| o l i t q w x m e u g f r j d k c s h a v n b p
+group is abelian: False
+order of group: 24
+==================================
+
+

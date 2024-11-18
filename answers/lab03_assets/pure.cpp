@@ -7,7 +7,12 @@ std::vector< std::map<int, int> > FACTORS_CACHED;
 std::vector<bool> IS_PRIME(101, 0);
 
 
+// заготовочка під кілька процесів
+int workers;
+int num_worker;
 
+
+// перші 100 простих чисел і розклад всіх чисел на множники для factorize=True
 void precalculate(){
     for (int N = 0; N < 101; N++){
         int i = N;
@@ -83,7 +88,11 @@ void call_factors(std::vector<int> &a, int end, bool factorize){
 }
 
 
+// взято отуть: https://jeromekelleher.net/generating-integer-partitions.html
 void partitions(int n, bool factorize) {
+
+    int work_num = 0;
+    bool start = true;
 
     std::vector<int> a(n, 0);
     int k = 1;
@@ -100,18 +109,40 @@ void partitions(int n, bool factorize) {
         while (x <= y){
             a[k] = x;
             a[l] = y;
-            call_factors(a, k+2, factorize);
+
+            work_num++;
+
+            if ((start && work_num == num_worker) || work_num == workers){
+                call_factors(a, k+2, factorize);
+                work_num = 0;
+                start = false;
+            }
             x += 1;
             y -= 1;
         }
         a[k] = x + y;
         y = x + y - 1;
-        call_factors(a, k+1, factorize);
+
+        work_num++;
+        if ((start && work_num == num_worker) || work_num == workers){
+            call_factors(a, k+1, factorize);
+            work_num = 0;
+            start = false;
+        }
     }
 }
 
 
-int main(){
+int main(int argc, char** argv){
+    if (argc > 1){
+        workers = atoi(argv[1]);
+        num_worker = atoi(argv[2]);
+    }
+    else {
+        workers = 1;
+        num_worker = 0;
+    }
+
     precalculate();
     partitions(100, false);
 }
